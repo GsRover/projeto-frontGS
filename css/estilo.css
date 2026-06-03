@@ -1,0 +1,114 @@
+:root{
+    --color1:rgb(179, 97, 5);
+    --color2:rgb(0, 0, 0);
+    --color3:rgb(255, 0, 0);
+    --color4:rgb(189, 2, 2);
+    --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+body{
+color:var(--color2);
+font-family: var(--font-family);
+background-color: var(--color2);
+}
+/*HEADER*/
+header {
+    background: var(--color1);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header #logo{
+    width: 30%;
+    padding: 10px;
+    
+}
+header .logo-titulo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header .logo-titulo span {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color2);
+    
+}
+header nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--color2);
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+}
+
+header nav ul li a:hover {
+    color: var(--color4);
+    border-bottom-color: var(--color5);
+   
+}
+/*FOOTER*/
+footer {
+    background: #440000;
+    border-top: 3px solid var(--color3);
+    padding: 50px 40px 20px;
+    margin-top: 60px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+}
+
+.footer-col h4 {
+    color: var(--color5);
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--color3);
+}
+
+.footer-col p,
+.footer-col a {
+    color: #bbb;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+
+.footer-copy {
+    text-align: center;
+    color: #646464;
+    font-size: 0.85rem;
+    padding-top: 20px;
+    border-top: 1px solid #2a0010;
+}
