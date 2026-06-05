@@ -3,16 +3,21 @@
     --color2:rgb(0, 0, 0);
     --color3:rgb(255, 0, 0);
     --color4:rgb(189, 2, 2);
+    --color5: ;
     --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 
 }
 body{
-color:var(--color2);
+color:var(--color1);
 font-family: var(--font-family);
 background-color: var(--color2);
 }
+
+
+
+
 /*HEADER*/
 header {
     background: var(--color1);
