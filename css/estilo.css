@@ -17,9 +17,17 @@ color:var(--color1);
 font-family: var(--font-family);
 background-color: var(--color2);
 }
+#content{
+    background-color: #440000;
+}
 
 
 /*INICIO*/
+#textintro{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 #start{
     background-image: url(../assets/bggs.png);
     background-position: center;
@@ -40,10 +48,7 @@ background-color: var(--color2);
     width:30%;
     
 }
-#textintro{
-    text-align: center;
-    margin-top:50px;
-}
+
 .startdiv{
   display: flex;         
   align-items:start;   
