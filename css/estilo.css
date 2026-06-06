@@ -9,13 +9,16 @@
 
 
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
 color:var(--color1);
 font-family: var(--font-family);
 background-color: var(--color2);
 }
 /*SECTION-1*/
-body .section1{
+#section1{
     background-image: url(../assets/bggs.png);
     background-position: center;
     background-size: cover;
@@ -27,25 +30,25 @@ body .section1{
     justify-items: center;
 
 }
-.section1 #textsech1{
+#textsec1{
     text-transform: uppercase;
     color:var(--color1)
 }
-.problem #imgsec1{
+#imgsec1{
     width:30%;
 
 }
-.problem #samplesec1{
+#samplesec1{
     font-size: 2rem;
 }
 
 
 
 /*SECTION-2*/
-.section2 #imgsec2{
+#imgsec2{
     width:30%;
 }
-body .section2{
+#section2{
     background-image: url(../assets/bggs.png);
     background-position: center;
     background-size: cover;
@@ -57,17 +60,17 @@ body .section2{
     justify-items: center;
 
 }
-.section2 #textsech2{
+#textsec2{
     text-transform: uppercase;
     color:var(--color1)}
-.section2 #samplesec2{
+#samplesec2{
     font-size: 2rem;
 } 
 
 
 
 /*SECTION-3*/
-body .section3{
+#section3{
     background-image: url(../assets/bggs.png);
     background-position: center;
     background-size: cover;
@@ -79,22 +82,22 @@ body .section3{
     justify-items: center;
 
 }
-.section3 #textsech3{
+#textsec3{
     text-transform: uppercase;
     color:var(--color1)
 }
-.section3 #imgsec3{
+#imgsec3{
     width:30%;
 
 }
-.section3 #samplesec3{
+#samplesec3{
     font-size: 2rem;
 }
 
 
 
 /*SECTION-4*/
-body .section4{
+#section4{
     background-image: url(../assets/bggs.png);
     background-position: center;
     background-size: cover;
@@ -106,22 +109,22 @@ body .section4{
     justify-items: center;
 
 }
-.section4 #textsech4{
+#textsec4{
     text-transform: uppercase;
     color:var(--color1)
 }
-.section4 #imgsec4{
+#imgsec4{
     width:30%;
 
 }
-.section4 #samplesec4{
+#samplesec4{
     font-size: 2rem;
 }
 
 
 
 /*SECTION-5*/
-body .section5{
+#section5{
     background-image: url(../assets/bggs.png);
     background-position: center;
     background-size: cover;
@@ -133,21 +136,21 @@ body .section5{
     justify-items: center;
 
 }
-.section5 #textsech5{
+#textsec5{
     text-transform: uppercase;
     color:var(--color1)
 }
-.section5 #imgsec5{
+#imgsec5{
     width:30%;
 
 }
-.section5 #samplesec5{
+#samplesec5{
     font-size: 2rem;
 }
 
 
 /*SECTION-6*/
-body .section6{
+#section6{
     background-image: url(../assets/bggs.png);
     background-position: center;
     background-size: cover;
@@ -159,15 +162,15 @@ body .section6{
     justify-items: center;
 
 }
-.section6 #textsech6{
+#textsec6{
     text-transform: uppercase;
     color:var(--color1)
 }
-.section6 #imgsec6{
+#imgsec6{
     width:30%;
 
 }
-.section6 #samplesec6{
+#samplesec6{
     font-size: 2rem;
 }
 
