@@ -1,8 +1,8 @@
 :root{
-    --color1:#702200;
-    --color2:#080708;
-    --color3:rgb(255, 0, 0);
-    --color4:rgb(189, 2, 2);
+    --color1:#253149;
+    --color2:#5e6c87;
+    --color3:#960435;
+    --color4:rgb(37, 154, 175);
     --colorlinear:linear-gradient(90deg, rgb(100, 65, 0), rgb(117, 0, 0));
     --font-family:"Quantico", sans-serif
 
@@ -14,7 +14,7 @@ html{
 body{
 color:var(--color1);
 font-family: var(--font-family);
-background-color: var(--color2);
+background-color: black;
 }
 #content{
     background: linear-gradient(to top, var(--color2), black 10%);
@@ -26,6 +26,7 @@ background-color: var(--color2);
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    color:var(--color4);
 }
 #start{
     background-image: url(../assets/bggs.png);
@@ -42,7 +43,7 @@ background-color: var(--color2);
 #textstart{
     margin-top: 20px;
     margin-bottom: 90px;
-    font-family: var(--font-family);
+    color:var(--color2)
 }
 #imgstart{
     width:50%;
@@ -312,8 +313,8 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: var(--color4);
-    border-bottom-color: var(--color5);
-    border-bottom-style:dashed ;
+    border-bottom-color: var(--color4);
+    border-bottom-style:groove ;
    
 }
 
