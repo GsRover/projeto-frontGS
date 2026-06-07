@@ -3,7 +3,7 @@
     --color2:rgb(0, 0, 0);
     --color3:rgb(255, 0, 0);
     --color4:rgb(189, 2, 2);
-    --color5: ;
+    --colorlinear:linear-gradient(90deg, rgb(100, 65, 0), rgb(117, 0, 0));
     --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
@@ -18,7 +18,7 @@ font-family: var(--font-family);
 background-color: var(--color2);
 }
 #content{
-    background-color: #440000;
+    background:var(--colorlinear)
 }
 
 
@@ -29,12 +29,12 @@ background-color: var(--color2);
     margin-bottom: 50px;
 }
 #start{
-    background-image: url(../assets/bggs.png);
+    background:var(--colorlinear);
     background-position: center;
     background-size: cover;
     padding: 20px;
     padding-top: 90px;
-    padding-bottom: 75px;
+    padding-bottom: 90px;
     color:var(--color1);
     text-align: center;
     justify-items: left;
@@ -83,7 +83,13 @@ background-color: var(--color2);
 #samplesec1{
     font-size: 2rem;
 }
-
+#hr1{
+    margin: 130px;
+    color:var(--color1);
+    border-inline: 450px solid red;
+    align-items: center;
+    
+}
 
 
 /*SECTION-2*/
@@ -108,7 +114,13 @@ background-color: var(--color2);
 #samplesec2{
     font-size: 2rem;
 } 
-
+#hr2{
+    margin: 130px;
+    color:var(--color1);
+    border-inline: 450px solid red;
+    align-items: center;
+    
+}
 
 
 /*SECTION-3*/
@@ -135,7 +147,13 @@ background-color: var(--color2);
 #samplesec3{
     font-size: 2rem;
 }
-
+#hr3{
+    margin: 130px;
+    color:var(--color1);
+    border-inline: 450px solid red;
+    align-items: center;
+    
+}
 
 
 /*SECTION-4*/
@@ -162,7 +180,13 @@ background-color: var(--color2);
 #samplesec4{
     font-size: 2rem;
 }
-
+#hr4{
+    margin: 130px;
+    color:var(--color1);
+    border-inline: 450px solid red;
+    align-items: center;
+    
+}
 
 
 /*SECTION-5*/
@@ -189,7 +213,13 @@ background-color: var(--color2);
 #samplesec5{
     font-size: 2rem;
 }
-
+#hr5{
+    margin: 130px;
+    color:var(--color1);
+    border-inline: 450px solid red;
+    align-items: center;
+    
+}
 
 /*SECTION-6*/
 #section6{
@@ -215,13 +245,19 @@ background-color: var(--color2);
 #samplesec6{
     font-size: 2rem;
 }
-
+#hr6{
+    margin: 130px;
+    color:var(--color1);
+    border-inline: 450px solid red;
+    align-items: center;
+    
+}
 
 
 /*HEADER*/
 header {
     background: var(--color1);
-    padding: 1px 30px;
+    padding: 0px 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -241,16 +277,18 @@ header .logo-titulo {
 }
 
 header .logo-titulo span {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--color2);
     
 }
 header nav ul {
-    display: flex;
-    gap: 40px;
+    display: inline-flex;
+    gap: 60px;
     list-style:none;
-    margin-right: 20px;
+    margin-right: 50px;
+    margin-top: 20px;
+    white-space: nowrap;
 }
 
 header nav ul li a {
@@ -261,13 +299,17 @@ header nav ul li a {
     transition: color 0.3s ease;
     padding-bottom: 3px;
     border-bottom: 2px solid transparent;
+    offset-anchor: 100px 100px 100px 100px;
 }
+
 
 header nav ul li a:hover {
     color: var(--color4);
     border-bottom-color: var(--color5);
+    border-bottom-style:dashed ;
    
 }
+
 /*FOOTER*/
 footer {
     background: #440000;
