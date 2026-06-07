@@ -4,8 +4,7 @@
     --color3:rgb(255, 0, 0);
     --color4:rgb(189, 2, 2);
     --colorlinear:linear-gradient(90deg, rgb(100, 65, 0), rgb(117, 0, 0));
-    --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    --font-family:"Quantico", sans-serif
 
 
 }
@@ -30,19 +29,20 @@ background-color: var(--color2);
 }
 #start{
     background-image: url(../assets/bggs.png);
-    box-shadow:-25px -100px 50px 0px black inset;
+    box-shadow:-25px -50px 50px 0px black inset;
     background-size:cover;
     padding: 20px;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     color:var(--color1);
-    text-align: center;
+    text-align: left;
     justify-items: left;
 
 }
 #textstart{
     margin-top: 20px;
     margin-bottom: 90px;
+    font-family: var(--font-family);
 }
 #imgstart{
     width:50%;
@@ -62,10 +62,11 @@ background-color: var(--color2);
 
 /*SECTION-1*/
 #section1{
-    background: linear-gradient(to bottom,black 60%,rgb(12, 0, 0));
+    background: linear-gradient(to bottom,black 60%,rgb(36, 0, 0));
     background-position: center;
     background-size: cover;
     padding: 20px;
+    
     padding-bottom: 75px;
     color:var(--color3);
     text-align: center;
@@ -97,7 +98,7 @@ background-color: var(--color2);
     width:30%;
 }
 #section2{
-    background:linear-gradient(to bottom,rgba(12,0,0) 70%, rgba(22, 0, 0, 0.63) );
+    background:linear-gradient(to bottom,rgb(36, 0, 0) 70%, rgba(22, 0, 0, 0.63) );
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -125,7 +126,7 @@ background-color: var(--color2);
 
 /*SECTION-3*/
 #section3{
-    background:linear-gradient(to bottom,rgba(22, 0, 0, 0.63) 70%,#40152a);
+    background:linear-gradient(to bottom,rgba(22, 0, 0, 0.63) 70%,#30101f);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -158,7 +159,7 @@ background-color: var(--color2);
 
 /*SECTION-4*/
 #section4{
-    background:linear-gradient(to bottom, #40152a 70%, rgb(0, 1, 19));
+    background:linear-gradient(to bottom, #30101f 70%, rgb(0, 1, 19));
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -252,7 +253,13 @@ background-color: var(--color2);
     align-items: center;
     
 }
-
+/*END*/
+.end{
+    background-image: url(../assets/bggsbottom.png);
+    background-position:center;
+    background-position-y: 2100px;
+    padding-top: 100px;
+}
 
 /*HEADER*/
 header {
