@@ -1,6 +1,6 @@
 :root{
-    --color1:rgb(179, 97, 5);
-    --color2:rgb(0, 0, 0);
+    --color1:#702200;
+    --color2:#080708;
     --color3:rgb(255, 0, 0);
     --color4:rgb(189, 2, 2);
     --colorlinear:linear-gradient(90deg, rgb(100, 65, 0), rgb(117, 0, 0));
@@ -18,7 +18,7 @@ font-family: var(--font-family);
 background-color: var(--color2);
 }
 #content{
-    background:var(--colorlinear)
+    background: linear-gradient(to top, var(--color2), black 10%);
 }
 
 
@@ -29,23 +29,24 @@ background-color: var(--color2);
     margin-bottom: 50px;
 }
 #start{
-    background:var(--colorlinear);
-    background-position: center;
-    background-size: cover;
+    background-image: url(../assets/bggs.png);
+    box-shadow:-25px -100px 50px 0px black inset;
+    background-size:cover;
     padding: 20px;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     color:var(--color1);
     text-align: center;
     justify-items: left;
 
 }
 #textstart{
-    margin-top: 130px;
+    margin-top: 20px;
     margin-bottom: 90px;
 }
 #imgstart{
-    width:30%;
+    width:50%;
+    margin-left: 20px;
     
 }
 
@@ -61,11 +62,10 @@ background-color: var(--color2);
 
 /*SECTION-1*/
 #section1{
-    background-image: url(../assets/bggs.png);
+    background: linear-gradient(to bottom,black 60%,rgb(12, 0, 0));
     background-position: center;
     background-size: cover;
     padding: 20px;
-    padding-top: 90px;
     padding-bottom: 75px;
     color:var(--color3);
     text-align: center;
@@ -86,7 +86,7 @@ background-color: var(--color2);
 #hr1{
     margin: 130px;
     color:var(--color1);
-    border-inline: 450px solid red;
+    border-inline: 450px solid var(--color1);
     align-items: center;
     
 }
@@ -97,7 +97,7 @@ background-color: var(--color2);
     width:30%;
 }
 #section2{
-    background-image: url(../assets/bggs.png);
+    background:linear-gradient(to bottom,rgba(12,0,0) 70%, rgba(22, 0, 0, 0.63) );
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -117,7 +117,7 @@ background-color: var(--color2);
 #hr2{
     margin: 130px;
     color:var(--color1);
-    border-inline: 450px solid red;
+    border-inline: 450px solid var(--color1);
     align-items: center;
     
 }
@@ -125,7 +125,7 @@ background-color: var(--color2);
 
 /*SECTION-3*/
 #section3{
-    background-image: url(../assets/bggs.png);
+    background:linear-gradient(to bottom,rgba(22, 0, 0, 0.63) 70%,#40152a);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -150,7 +150,7 @@ background-color: var(--color2);
 #hr3{
     margin: 130px;
     color:var(--color1);
-    border-inline: 450px solid red;
+    border-inline: 450px solid var(--color1);
     align-items: center;
     
 }
@@ -158,7 +158,7 @@ background-color: var(--color2);
 
 /*SECTION-4*/
 #section4{
-    background-image: url(../assets/bggs.png);
+    background:linear-gradient(to bottom, #40152a 70%, rgb(0, 1, 19));
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -183,7 +183,7 @@ background-color: var(--color2);
 #hr4{
     margin: 130px;
     color:var(--color1);
-    border-inline: 450px solid red;
+    border-inline: 450px solid var(--color1);
     align-items: center;
     
 }
@@ -191,7 +191,7 @@ background-color: var(--color2);
 
 /*SECTION-5*/
 #section5{
-    background-image: url(../assets/bggs.png);
+    background:linear-gradient(to bottom,rgb(0, 1, 19),rgb(0, 3, 56));
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -216,14 +216,14 @@ background-color: var(--color2);
 #hr5{
     margin: 130px;
     color:var(--color1);
-    border-inline: 450px solid red;
+    border-inline: 450px solid var(--color1);
     align-items: center;
     
 }
 
 /*SECTION-6*/
 #section6{
-    background-image: url(../assets/bggs.png);
+    background:linear-gradient(to bottom,rgb(0, 3, 56) 50%,rgb(0, 0, 0));
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -248,7 +248,7 @@ background-color: var(--color2);
 #hr6{
     margin: 130px;
     color:var(--color1);
-    border-inline: 450px solid red;
+    border-inline: 450px solid var(--color1);
     align-items: center;
     
 }
