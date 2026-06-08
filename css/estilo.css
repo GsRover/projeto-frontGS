@@ -4,22 +4,22 @@
     --color3:#960435;
     --color4:rgb(37, 154, 175);
     --colorlinear:linear-gradient(90deg, rgb(100, 65, 0), rgb(117, 0, 0));
-    --font-family:"Quantico", sans-serif
-
-
+    --font-family:"Quantico", sans-serif;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 body{
 color:var(--color1);
 font-family: var(--font-family);
 background-color: black;
 }
+
 #content{
     background: linear-gradient(to top, var(--color2), black 10%);
 }
-
 
 /*INICIO*/
 #textintro{
@@ -29,6 +29,7 @@ background-color: black;
     color:var(--color4);
     font-size:6rem;
 }
+
 .start{
     background-image: url(../assets/bggs.png);
     box-shadow:-25px -50px 50px 0px black inset;
@@ -39,21 +40,20 @@ background-color: black;
     color:var(--color1);
     text-align: left;
     justify-items: left;
-
 }
+
 #textstart{
     
     margin-top: 10px;
     margin-bottom: 90px;
     margin-left: 40px;
     color:var(--color2);
-    font-size: 5rem;
-    
+    font-size: 5rem;  
 }
+
 #imgstart{
     width:42%;
-    margin-left: 20px;
-    
+    margin-left: 20px; 
 }
 
 .startdiv{
@@ -61,6 +61,7 @@ background-color: black;
   align-items:start;   
   gap: 20px;
 }
+
 #samplestart{
     color: var(--color4);
     font-size: 2.5rem;
@@ -76,35 +77,34 @@ background-color: black;
     color:var(--color3);
     text-align: center;
     justify-items: center;
-
 }
+
 #textsec1{
     text-transform: uppercase;
     color:var(--color4)
 }
+
 #imgsec1{
     width:30%;
-
 }
+
 #samplesec1{
     font-size: 3.5rem;
     line-height: 6rem;
-    
-    
 }
+
 #hr1{
     margin: 130px;
     color:var(--color1);
     border-inline: 450px solid var(--color1);
     align-items: center;
-    
 }
-
 
 /*SECTION-2*/
 #imgsec2{
     width:30%;
 }
+
 #section2{
     background:linear-gradient(to bottom,rgb(36, 0, 0) 70%, rgba(22, 0, 0, 0.63) );
     background-position: center;
@@ -114,24 +114,24 @@ background-color: black;
     color:var(--color3);
     text-align: center;
     justify-items: center;
-
 }
+
 #textsec2{
     text-transform: uppercase;
     color:var(--color4)
 }
+
 #samplesec2{
    font-size: 3.5rem;
     line-height: 6rem;
 } 
+
 #hr2{
     margin: 130px;
     color:var(--color1);
     border-inline: 450px solid var(--color1);
     align-items: center;
-    
 }
-
 
 /*SECTION-3*/
 #section3{
@@ -143,20 +143,23 @@ background-color: black;
     color:var(--color3);
     text-align: center;
     justify-items: center;
-
 }
+
 #textsec3{
     text-transform: uppercase;
     color:var(--color4)
 }
+
 #imgsec3{
     width:30%;
 
 }
+
 #samplesec3{
     font-size: 3.5rem;
     line-height: 6rem;
 }
+
 #hr3{
     margin: 130px;
     color:var(--color1);
@@ -164,7 +167,6 @@ background-color: black;
     align-items: center;
     
 }
-
 
 /*SECTION-4*/
 #section4{
@@ -176,29 +178,29 @@ background-color: black;
     color:var(--color3);
     text-align: center;
     justify-items: center;
-
 }
+
 #textsec4{
     text-transform: uppercase;
     color:var(--color4)
 }
+
 #imgsec4{
     width:30%;
     padding-top:50px ;
-
 }
+
 #samplesec4{
     font-size: 3.5rem;
     line-height: 6rem;
 }
+
 #hr4{
     margin: 130px;
     color:var(--color1);
     border-inline: 450px solid var(--color1);
     align-items: center;
-    
 }
-
 
 /*SECTION-5*/
 #section5{
@@ -210,26 +212,28 @@ background-color: black;
     color:var(--color3);
     text-align: center;
     justify-items: center;
-
 }
+
 #textsec5{
     text-transform: uppercase;
     color:var(--color4)
 }
+
 #imgsec5{
     width:30%;
 
 }
+
 #samplesec5{
     font-size: 3.5rem;
     line-height: 6rem;
 }
+
 #hr5{
     margin: 130px;
     color:var(--color1);
     border-inline: 450px solid var(--color1);
     align-items: center;
-    
 }
 
 /*SECTION-6*/
@@ -242,27 +246,29 @@ background-color: black;
     color:var(--color3);
     text-align: center;
     justify-items: center;
-
 }
+
 #textsec6{
     text-transform: uppercase;
     color:var(--color4)
 }
+
 #imgsec6{
     width:30%;
-
 }
+
 #samplesec6{
     font-size: 3.5rem;
     line-height: 6rem;
 }
+
 #hr6{
     margin: 130px;
     color:var(--color1);
     border-inline: 450px solid var(--color1);
     align-items: center;
-    
 }
+
 /*END*/
 .end{
     background-image: url(../assets/bggsbottom.png);
@@ -274,12 +280,12 @@ background-color: black;
     padding-bottom: 170px;
     color:var(--color1);
     text-align: center;
-    
 }
+
 #imgend{
     width:30%;
-    
 }
+
 #hrend{
     margin: 130px;
     color:var(--color1);
@@ -287,18 +293,20 @@ background-color: black;
     align-items: center;
     margin-top: 100px;
     margin-bottom:180px;
-    
 }
+
 .enddiv{
   display: flex;         
   align-items:start;   
   gap: 20px;
 }
+
 #sampleend{
     color: var(--color4);
     font-size: 2.5rem;
     margin-right: 10px;
 }
+
 #textend{
     
     margin-top: 10px;
@@ -307,18 +315,16 @@ background-color: black;
     color:rgb(128, 236, 255);
     font-size: 4rem;
     text-decoration:underline;
-    
 }
+
 #textfinal{
     color:rgb(128, 236, 255);
     font-size: 4rem;
-    
-    
 }
+
 .end #logoend{
     align-items:center;
     padding-top: 50px;
-    
 }
 
 /*HEADER*/
@@ -332,11 +338,12 @@ header {
     top: 0;
     z-index: 100;
 }
+
 header #logo{
     width: 16%;
     padding: 10px;
-    
 }
+
 header .logo-titulo {
     display: flex;
     align-items: center;
@@ -349,8 +356,8 @@ header .logo-titulo span {
     color: var(--color2);
     margin-left: 20px;
     font-family: var(--font-family);
-    
 }
+
 header nav ul {
     display: inline-flex;
     gap: 60px;
@@ -371,12 +378,10 @@ header nav ul li a {
     offset-anchor: 100px 100px 100px 100px;
 }
 
-
 header nav ul li a:hover {
     color: var(--color4);
     border-bottom-color: var(--color4);
     border-bottom-style:groove ;
-   
 }
 
 /*FOOTER*/
@@ -413,14 +418,11 @@ footer {
     transition: color 0.3s ease;
 }
 
-
-
 .footer-social {
     display: flex;
     gap: 10px;
     margin-top: 8px;
 }
-
 
 .footer-copy {
     text-align: center;
