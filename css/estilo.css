@@ -80,7 +80,6 @@ body{
     color:var(--color3);
     text-align: center;
     justify-items: center;
-    margin-bottom: 100px;
 }
 
 #textsec1{
@@ -102,7 +101,7 @@ body{
     border-color: #960435;
     border-style: solid;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 #hr1{
